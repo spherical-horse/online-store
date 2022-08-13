@@ -1,0 +1,24 @@
+.search__cart {
+  padding-left: 30px;
+  position: relative;
+}
+
+.search__cart-img {
+  width: 34px;
+}
+
+.search__cart-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -4px;
+  right: -5px;
+  width: 20px;
+  height: 20px;
+  color: white;
+  background-color: #ee1515fc;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+}

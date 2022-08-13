@@ -1,0 +1,35 @@
+.search {
+  width: 70%;
+  display: flex;
+  align-items: center;
+
+}
+
+@media (max-width: 1200px) {
+
+  .search {
+    margin: 0 auto;
+  }
+
+}
+
+.search__field {
+  width: 80%;
+  height: 40px;
+  padding-left: 15px;
+  border: 2px solid rgb(216 207 207);
+  border-right: none;
+}
+
+.search__button {
+  height: 40px;
+  border: 2px solid rgb(216 207 207);
+  border-left: none;
+  width: 100px;
+  background-color: rgb(216 207 207);
+  cursor: pointer;
+}
+
+.search__button:hover {
+  background-color: rgb(197 192 192);
+}

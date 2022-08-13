@@ -1,0 +1,17 @@
+.filters {
+  padding-right: 50px;
+  /* background-color: rgb(237 237 237); */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: rgb(216 207 207);
+}
+
+@media (max-width: 1000px) {
+  .filters {
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

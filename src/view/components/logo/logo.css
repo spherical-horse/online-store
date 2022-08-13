@@ -1,0 +1,26 @@
+.logo {
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+  .logo {
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+}
+
+.logo__img {
+  width: 60px;
+}
+
+.logo__img-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logo__name {
+  display: flex;
+  font-size: 40px;
+  align-items: center;
+  padding-left: 20px;
+}

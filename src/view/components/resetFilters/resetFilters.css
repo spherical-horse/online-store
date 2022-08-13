@@ -1,0 +1,13 @@
+.filters__reset-button {
+  margin-left: 25px;
+  height: 40px;
+  border: 2px solid rgb(216 207 207);
+  border-left: none;
+  width: 100px;
+  background-color: rgb(216 207 207);
+  cursor: pointer;
+}
+
+.filters__reset-button:hover {
+  background-color: rgb(197 192 192);
+}

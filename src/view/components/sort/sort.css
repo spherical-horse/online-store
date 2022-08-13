@@ -1,0 +1,12 @@
+.products__sorting {
+  border-bottom-style: dotted;
+  border-bottom-color: black;
+  border-bottom-width: 1px;
+  cursor: pointer;
+}
+
+.products__sort-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
